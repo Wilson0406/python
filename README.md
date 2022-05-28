@@ -1,3 +1,3 @@
 # Python
 
-```This repo contains all basic python implementations```
+```This repo contains all basic python implementations and a few projects.```
