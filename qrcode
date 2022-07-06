@@ -1,0 +1,10 @@
+import pyqrcode
+from pyqrcode import QRCode
+import png
+
+link = 'http://wilsonvd.me/'
+
+qrurl = pyqrcode.create(link)
+
+qrurl.svg('mywebsite.svg', scale=8)
+qrurl.png('mywebsite.png', scale = 8)
